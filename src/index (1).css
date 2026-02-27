@@ -1,0 +1,34 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+
+@theme {
+  --font-sans: "Montserrat", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", serif;
+
+  --color-azul-claro: #AFC3D6;
+  --color-azul-medio: #5F87A3;
+  --color-azul-escuro: #2F4F63;
+  --color-preto-azulado: #1B1F24;
+  --color-cinza-claro: #D9E2EA;
+  --color-cta-laranja: #E6A15C;
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  body {
+    @apply bg-cinza-claro text-preto-azulado antialiased selection:bg-preto-azulado selection:text-white transition-colors duration-500;
+  }
+
+  .dark body {
+    @apply bg-preto-azulado text-cinza-claro;
+  }
+}
+
+.glass-card {
+  @apply bg-white/70 backdrop-blur-md border border-white/20 shadow-sm dark:bg-preto-azulado/70 dark:border-white/10;
+}
+
+.section-padding {
+  @apply py-20 px-6 md:px-12 lg:px-24;
+}
