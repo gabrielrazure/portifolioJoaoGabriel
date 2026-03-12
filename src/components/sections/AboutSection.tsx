@@ -27,8 +27,8 @@ export function AboutSection({ t, lang }: AboutSectionProps) {
                                               <div className="aspect-[4/5] rounded-[2rem] overflow-hidden bg-azul-claro/10 dark:bg-azul-escuro/20 border-8 border-cinza-claro dark:border-azul-escuro relative group">
                                                             <ProfileImage />
                                                             <div className="absolute inset-0 bg-preto-azulado/10 group-hover:bg-transparent transition-colors pointer-events-none" />
-                                              </div>div>
-                                  </motion.div>motion.div>
+                                              </div>
+                                  </motion.div>
                         
                           {/* Bio */}
                                   <motion.div
@@ -39,30 +39,30 @@ export function AboutSection({ t, lang }: AboutSectionProps) {
                                               >
                                               <div className="flex items-center gap-2 text-azul-medio mb-6">
                                                             <User size={16} />
-                                                            <span className="text-[10px] font-black uppercase tracking-[0.2em]">{t.about.badge}</span>span>
-                                              </div>div>
+                                                            <span className="text-[10px] font-black uppercase tracking-[0.2em]">{t.about.badge}</span>
+                                              </div>
                                               <h2 className="text-5xl font-black mb-8 leading-none uppercase tracking-tighter text-preto-azulado dark:text-white">
                                                             João Gabriel.
-                                              </h2>h2>
+                                              </h2>
                                               <div className="space-y-6 text-azul-escuro dark:text-azul-claro mb-10 text-lg leading-relaxed font-medium">
-                                                            <p>{t.about.description1}</p>p>
-                                                            <p>{t.about.description2}</p>p>
-                                              </div>div>
+                                                            <p>{t.about.description1}</p>
+                                                            <p>{t.about.description2}</p>
+                                              </div>
                                   
                                               <div className="grid grid-cols-2 gap-8 mb-12">
                                                             <div>
-                                                                            <h4 className="font-black text-[10px] uppercase tracking-widest mb-3 text-azul-medio">{t.about.location}</h4>h4>
+                                                                            <h4 className="font-black text-[10px] uppercase tracking-widest mb-3 text-azul-medio">{t.about.location}</h4>
                                                                             <p className="text-preto-azulado dark:text-cinza-claro font-bold flex items-center gap-2">
                                                                                               <MapPin size={16} className="text-azul-medio" /> {t.about.country}
-                                                                            </p>p>
-                                                            </div>div>
+                                                                            </p>
+                                                            </div>
                                                             <div>
-                                                                            <h4 className="font-black text-[10px] uppercase tracking-widest mb-3 text-azul-medio">{t.about.email}</h4>h4>
+                                                                            <h4 className="font-black text-[10px] uppercase tracking-widest mb-3 text-azul-medio">{t.about.email}</h4>
                                                                             <p className="text-preto-azulado dark:text-cinza-claro font-bold flex items-center gap-2">
                                                                                               <Mail size={16} className="text-azul-medio" /> {CONTACT.email}
-                                                                            </p>p>
-                                                            </div>div>
-                                              </div>div>
+                                                                            </p>
+                                                            </div>
+                                              </div>
                                   
                                               <div className="flex flex-wrap gap-3">
                                                 {SKILLS.map((skill) => (
@@ -71,12 +71,12 @@ export function AboutSection({ t, lang }: AboutSectionProps) {
                                                                                     className="px-4 py-2 bg-azul-claro/20 dark:bg-azul-escuro/30 rounded-lg text-[11px] text-preto-azulado dark:text-azul-claro font-black uppercase tracking-wider"
                                                                                   >
                                                                   {skill}
-                                                                </span>span>
+                                                                </span>
                                                               ))}
-                                              </div>div>
-                                  </motion.div>motion.div>
-                        </div>div>
-                </div>div>
-          </section>section>
+                                              </div>
+                                  </motion.div>
+                        </div>
+                </div>
+          </section>
         );
 }</section>
