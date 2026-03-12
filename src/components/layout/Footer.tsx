@@ -20,7 +20,7 @@ export function Footer() {
         </div>
 
         <p className="text-azul-medio text-[10px] font-black uppercase tracking-widest">
-          {"©"} {new Date().getFullYear()} João Gabriel {"•"} n8n Specialist
+          © {new Date().getFullYear()} João Gabriel • n8n Specialist
         </p>
       </div>
     </footer>
