@@ -59,7 +59,7 @@ export function ExperienceSection({ t, lang }: ExperienceSectionProps) {
                                                                 </span>
                                                               ))}
                                             </div>
-                              </motion.div>motion.div>
+                              </motion.div>
                             ))}
                         </div>
                 
@@ -84,7 +84,7 @@ export function ExperienceSection({ t, lang }: ExperienceSectionProps) {
                                               <Send size={16} />
                                     {t.cta.button}
                                   </a>
-                        </motion.div>motion.div>
+                        </motion.div>
                 </div>
           </section>
         );
