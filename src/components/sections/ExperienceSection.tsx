@@ -19,12 +19,12 @@ export function ExperienceSection({ t, lang }: ExperienceSectionProps) {
                         <div className="mb-20">
                                   <div className="flex items-center gap-2 text-azul-medio mb-4">
                                               <Cpu size={16} />
-                                              <span className="text-[10px] font-black uppercase tracking-[0.2em]">{t.experience.badge}</span>span>
-                                  </div>div>
+                                              <span className="text-[10px] font-black uppercase tracking-[0.2em]">{t.experience.badge}</span>
+                                  </div>
                                   <h2 className="text-6xl font-black uppercase tracking-tighter leading-none text-preto-azulado dark:text-white">
                                     {t.experience.title}
-                                  </h2>h2>
-                        </div>div>
+                                  </h2>
+                        </div>
                 
                   {/* Experience Cards */}
                         <div className="grid md:grid-cols-2 gap-8">
@@ -40,28 +40,28 @@ export function ExperienceSection({ t, lang }: ExperienceSectionProps) {
                                             <div className="flex items-start justify-between mb-8">
                                                             <div className="w-14 h-14 bg-preto-azulado dark:bg-azul-escuro rounded-2xl flex items-center justify-center text-cta-laranja">
                                                                               <Workflow size={24} />
-                                                            </div>div>
+                                                            </div>
                                                             <span className="text-[10px] font-black px-4 py-2 bg-azul-claro/20 dark:bg-azul-escuro/30 rounded-full text-azul-escuro dark:text-azul-claro">
                                                               {topic.period}
-                                                            </span>span>
-                                            </div>div>
+                                                            </span>
+                                            </div>
                                             <h3 className="text-2xl font-black mb-2 uppercase tracking-tight text-preto-azulado dark:text-white">
                                               {topic.title}
-                                            </h3>h3>
-                                            <p className="text-azul-medio font-bold text-xs mb-6 uppercase tracking-widest">{topic.company}</p>p>
+                                            </h3>
+                                            <p className="text-azul-medio font-bold text-xs mb-6 uppercase tracking-widest">{topic.company}</p>
                                             <p className="text-azul-escuro dark:text-azul-claro mb-8 leading-relaxed font-medium">
                                               {topic.description}
-                                            </p>p>
+                                            </p>
                                             <div className="flex flex-wrap gap-4">
                                               {topic.tags.map((tag) => (
                                                                 <span key={tag} className="text-[10px] font-black uppercase tracking-[0.15em] text-preto-azulado dark:text-azul-claro">
                                                                                     • {tag}
-                                                                </span>span>
+                                                                </span>
                                                               ))}
-                                            </div>div>
+                                            </div>
                               </motion.div>motion.div>
                             ))}
-                        </div>div>
+                        </div>
                 
                   {/* CTA Banner */}
                         <motion.div
@@ -72,9 +72,9 @@ export function ExperienceSection({ t, lang }: ExperienceSectionProps) {
                                     className="mt-12 p-10 bg-preto-azulado dark:bg-azul-escuro rounded-[2.5rem] text-white flex flex-col md:flex-row items-center justify-between gap-8"
                                   >
                                   <div>
-                                              <h3 className="text-2xl font-black uppercase mb-2 text-azul-claro">{t.cta.title}</h3>h3>
-                                              <p className="text-azul-medio dark:text-azul-claro font-medium">{t.cta.subtitle}</p>p>
-                                  </div>div>
+                                              <h3 className="text-2xl font-black uppercase mb-2 text-azul-claro">{t.cta.title}</h3>
+                                              <p className="text-azul-medio dark:text-azul-claro font-medium">{t.cta.subtitle}</p>
+                                  </div>
                                   <a
                                                 href={SOCIAL_LINKS.whatsapp}
                                                 target="_blank"
@@ -83,9 +83,9 @@ export function ExperienceSection({ t, lang }: ExperienceSectionProps) {
                                               >
                                               <Send size={16} />
                                     {t.cta.button}
-                                  </a>a>
+                                  </a>
                         </motion.div>motion.div>
-                </div>div>
-          </section>section>
+                </div>
+          </section>
         );
 }</section>
